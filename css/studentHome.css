@@ -290,6 +290,10 @@ svg {
   border: none;
 }
 
+.fc-bg>table>tbody>tr {
+  background: linear-gradient(0, #393939, #4b4b4b);
+}
+
 /* 위젯-내용 공백 제거 */
 .widget-body > div {
   padding: 0px;
@@ -354,7 +358,6 @@ div.widget-body > div::after {
   opacity: 0.7;
 }
 
-/*  */
 .skin-2 .nav-list > li:nth-child(2) > a:hover {
   background-color: #103341;
   color: white;
