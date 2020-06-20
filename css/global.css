@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+
+body {
+  font-family: "Noto Sans KR", "나눔스퀘어", "나눔바른고딕", Arial;
+}
+
+.skin-2 .navbar {
+  background: #393939;
+}
+
+.navbar-brand {
+  display: none;
+}
+
+img.pull-left {
+  content: url("https://raw.githubusercontent.com/HyeokjinKang/better-benedu/master/icon64.png");
+  margin-top: 6px;
+  height: 24px;
+}
+.menu-min {
+  width: 60px !important;
+}
+
+.sidebar.menu-min.compact {
+  width: 60px !important;
+}
+
+.sidebar-shortcuts-mini {
+  margin-left: 9px;
+}
+
+.nav-list > li > a > .menu-icon {
+  width: 60px !important;
+}
+
+#___sharetoclassroom_0 {
+  display: none !important;
+}
+
+.skin-2 .sidebar.menu-min .nav-list > li > a > .menu-text {
+  margin-left: 18px;
+}
+
+.user-info {
+  display: none;
+}
+
+.ace-nav > li {
+  border: none;
+}
+
+.fa-clock-o {
+  color: white !important;
+}
+
+.glyphicon {
+  color: white !important;
+}
+
+small > a {
+  color: white !important;
+}
+
+.ace-nav > li.light-blue > a {
+  background-color: #393939 !important;
+}
+
+#sidebar > div.nav-wrap-up.pos-rel > div.nav-wrap > div > ul > li {
+  border: none;
+}
+
+/* 배경 색 변경 */
+.page-content {
+  height: 100%;
+  background-color: #393939;
+}
+
+.main-content-inner {
+  height: calc(100vh - 45px);
+}
+
+#main-container {
+  height: 100vh;
+}
+
+/* 버튼 색 변경 */
+.skin-2 .navbar .navbar-toggle {
+  background-color: #393939;
+}
+
+.skin-2 .nav-list > li.hover-show > a {
+  background-color: #393939 !important;
+}
+
+.sidebar.menu-min .nav-list > li > .submenu {
+  left: 59px;
+}
+
+/* 푸터 삭제 */
+.footer {
+  display: none;
+}
