@@ -1,78 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
-
-/* 폰트 변경 */
-body {
-  font-family: "Noto Sans KR", "나눔스퀘어", "나눔바른고딕", Arial;
-}
-
-.skin-2 .navbar {
-  background: #393939;
-}
-
-.navbar-brand {
-  display: none;
-}
-
-img.pull-left {
-  content: url("https://raw.githubusercontent.com/HyeokjinKang/better-benedu/master/icon64.png");
-  margin-top: 6px;
-  height: 24px;
-}
-
 .slide-0 {
   background: linear-gradient(0, #1f1f1f, #393939) !important;
 }
 
 .carousel-control {
   display: none;
-}
-
-.menu-min {
-  width: 60px !important;
-}
-
-.sidebar.menu-min.compact {
-  width: 60px !important;
-}
-
-.sidebar-shortcuts-mini {
-  margin-left: 9px;
-}
-
-.nav-list > li > a > .menu-icon {
-  width: 60px !important;
-}
-
-#___sharetoclassroom_0 {
-  display: none !important;
-}
-
-.skin-2 .sidebar.menu-min .nav-list > li > a > .menu-text {
-  margin-left: 18px;
-}
-
-.user-info {
-  display: none;
-}
-
-.ace-nav > li {
-  border: none;
-}
-
-.fa-clock-o {
-  color: white !important;
-}
-
-.glyphicon {
-  color: white !important;
-}
-
-small > a {
-  color: white !important;
-}
-
-.ace-nav > li.light-blue > a {
-  background-color: #393939 !important;
 }
 
 .carousel-caption {
@@ -86,11 +17,6 @@ small > a {
 .carousel-caption > p:nth-child(3) {
   font-size: 1em;
 }
-
-/* 사이드바 보더 없애기 */
-#sidebar > div.nav-wrap-up.pos-rel > div.nav-wrap > div > ul > li {
-  border: none;
-}
 /* 짜잔 */
 /* 여기서부터는 민유의 코드 */
 
@@ -100,36 +26,9 @@ small > a {
   color: white;
 }
 
-/* 버튼 색 변경 */
-.skin-2 .navbar .navbar-toggle {
-  background-color: #393939;
-}
-
-.skin-2 .nav-list > li.hover-show > a {
-  background-color: #393939 !important;
-}
-
-.sidebar.menu-min .nav-list > li > .submenu {
-  left: 59px;
-}
-
 /* 폰트 색 변경 */
 .row {
   color: white;
-}
-
-/* 배경 색 변경 */
-.page-content {
-  height: 100%;
-  background-color: #393939;
-}
-
-.main-content-inner {
-  height: calc(100vh - 45px);
-}
-
-#main-container {
-  height: 100vh;
 }
 
 /* 색칠되지 않은 별 색 변경 */
@@ -162,11 +61,6 @@ small > a {
 /* 학습 계획 일정 글씨 색 변경 */
 .fc-toolbar button {
   color: white;
-}
-
-/* 푸터 삭제 */
-.footer {
-  display: none;
 }
 
 .fc-state-default,
@@ -266,15 +160,6 @@ svg {
   opacity: 0.9;
 }
 
-/* 일일단어 위젯 안쓰는 아이콘 제거 */
-#mainVoca
-  > div
-  > div
-  > div.widget-header.widget-header-small.header-color-blue2
-  > div {
-  display: none;
-}
-
 /* 날씨위젯에 현재시간 표시 제거 */
 #mainWeather
   > div
@@ -288,6 +173,10 @@ svg {
 /*  위젯 상단 줄 제거 */
 .widget-box.transparent > .widget-header {
   border: none;
+}
+
+.fc-bg > table > tbody > tr {
+  background: linear-gradient(0, #393939, #4b4b4b);
 }
 
 /* 위젯-내용 공백 제거 */

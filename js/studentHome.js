@@ -1,0 +1,6 @@
+document.getElementsByClassName('carousel-caption')[0].getElementsByTagName('p')[1].innerHTML = document.getElementsByClassName('carousel-caption')[0].getElementsByTagName('p')[1].innerText.replace('My Point : ', '내 포인트 <span style="font-weight: 600">').replace(' 점, My 순위 :', '점</span><br>디미고에서<span style="font-weight: 600">').replace(' 위', '등</span>');
+document.getElementsByClassName('carousel-caption')[0].getElementsByTagName('p')[2].innerText = document.getElementsByClassName('carousel-caption')[0].getElementsByTagName('p')[2].innerText.replace('포인트 집계 기간은 ', '').replace(' 입니다.', '');
+document.getElementsByClassName('row')[0].getElementsByClassName('row')[0].getElementsByTagName('div')[0].classList.remove('col-lg-7');
+document.getElementsByClassName('row')[0].getElementsByClassName('row')[0].getElementsByTagName('div')[0].classList.add('col-lg-6');
+document.getElementsByClassName('row')[0].getElementsByClassName('row')[0].getElementsByTagName('div')[0].style.marginLeft = '4.5vw';
+document.getElementsByClassName('row')[0].getElementsByClassName('row')[8].getElementsByTagName('div')[0].style.marginLeft = '4.6vw';

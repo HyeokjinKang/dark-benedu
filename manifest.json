@@ -17,5 +17,5 @@
   "name": "Better Benedu",
   "permissions": ["*://*.benedu.co.kr/*", "tabs", "activeTab"],
   "version": "1.0",
-  "web_accessible_resources": [ "svg/*.svg", "css/*.css" ]
+  "web_accessible_resources": [ "css/*.css", "js/*.js" ]
 }
