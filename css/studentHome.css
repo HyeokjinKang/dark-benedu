@@ -202,6 +202,10 @@ small > a {
   color: white;
 }
 
+.menu-text {
+  color: white !important;
+}
+
 /* better benedu 삭제 */
 .betterBenedu-margin {
   display: none;
@@ -225,12 +229,16 @@ small > a {
   display: none;
 }
 
-/* 과제 추천 상단의 아이콘 제거*/
+/* 거슬리는 아이콘을 제거*/
 .ace-icon.fa.fa-refresh {
   display: none;
 }
 
 .ace-icon.fa.fa-list {
+  display: none;
+}
+
+.widget-header>.widget-title>.ace-icon {
   display: none;
 }
 
