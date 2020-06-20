@@ -250,3 +250,7 @@ svg {
 .grid2 {
   border: none;
 }
+
+.fc-bg>table>tbody>tr {
+  background: linear-gradient(0, #393939, #4b4b4b);
+}
