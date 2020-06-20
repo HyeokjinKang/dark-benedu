@@ -85,3 +85,8 @@ small > a {
 .carousel-caption>p:nth-child(3) {
   font-size: 1em;
 }
+
+/* 사이드바 보더 없애기 */
+#sidebar > div.nav-wrap-up.pos-rel > div.nav-wrap > div > ul > li { 
+  border: none;
+}
