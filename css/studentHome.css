@@ -7,6 +7,81 @@ body {
 .skin-2 .navbar {
   background: #393939;
 }
-img.pull-left {
+
+.navbar-brand {
   display: none;
+}
+
+img.pull-left {
+  content: url('https://raw.githubusercontent.com/HyeokjinKang/better-benedu/master/icon64.png');
+  margin-top: 6px;
+  height: 24px;
+}
+
+.slide-0 {
+  background: linear-gradient(0, #000000, #393939) !important;
+}
+
+.carousel-control {
+  display: none;
+}
+
+.menu-min {
+  width: 60px !important;
+}
+
+.sidebar.menu-min.compact {
+  width: 60px !important;
+}
+
+.sidebar-shortcuts-mini {
+  margin-left: 9px;
+}
+
+.nav-list > li > a > .menu-icon {
+  width: 60px !important;
+}
+
+#___sharetoclassroom_0 {
+  display: none !important;
+}
+
+.skin-2 .sidebar.menu-min .nav-list>li>a>.menu-text {
+  margin-left: 18px;
+}
+
+.user-info {
+  display: none;
+}
+
+.ace-nav > li {
+  border: none;
+}
+
+.fa-clock-o {
+  color: white !important;
+}
+
+.glyphicon{
+  color: white !important;
+}
+
+small > a {
+  color: white !important;
+}
+
+.ace-nav>li.light-blue>a {
+  background-color: #393939 !important;
+}
+
+.carousel-caption {
+  font-size: 1.2em;
+}
+
+.carousel-caption>p:nth-child(1) {
+  display: none;
+}
+
+.carousel-caption>p:nth-child(3) {
+  font-size: 1em;
 }
