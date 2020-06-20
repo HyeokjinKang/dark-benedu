@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
 
 /* 폰트 변경 */
 body {
-  font-family: 'Noto Sans KR', '나눔스퀘어', '나눔바른고딕', Arial;
+  font-family: "Noto Sans KR", "나눔스퀘어", "나눔바른고딕", Arial;
 }
 
 .skin-2 .navbar {
@@ -14,7 +14,7 @@ body {
 }
 
 img.pull-left {
-  content: url('https://raw.githubusercontent.com/HyeokjinKang/better-benedu/master/icon64.png');
+  content: url("https://raw.githubusercontent.com/HyeokjinKang/better-benedu/master/icon64.png");
   margin-top: 6px;
   height: 24px;
 }
@@ -47,7 +47,7 @@ img.pull-left {
   display: none !important;
 }
 
-.skin-2 .sidebar.menu-min .nav-list>li>a>.menu-text {
+.skin-2 .sidebar.menu-min .nav-list > li > a > .menu-text {
   margin-left: 18px;
 }
 
@@ -63,7 +63,7 @@ img.pull-left {
   color: white !important;
 }
 
-.glyphicon{
+.glyphicon {
   color: white !important;
 }
 
@@ -71,7 +71,7 @@ small > a {
   color: white !important;
 }
 
-.ace-nav>li.light-blue>a {
+.ace-nav > li.light-blue > a {
   background-color: #393939 !important;
 }
 
@@ -79,33 +79,37 @@ small > a {
   font-size: 1.2em;
 }
 
-.carousel-caption>p:nth-child(1) {
+.carousel-caption > p:nth-child(1) {
   display: none;
 }
 
-.carousel-caption>p:nth-child(3) {
+.carousel-caption > p:nth-child(3) {
   font-size: 1em;
 }
 
+/* 사이드바 보더 없애기 */
+#sidebar > div.nav-wrap-up.pos-rel > div.nav-wrap > div > ul > li {
+  border: none;
+}
 /* 짜잔 */
 /* 여기서부터는 민유의 코드 */
 
 /* 폰트 색 변경 */
-.widget-box.transparent>.widget-header {
+.widget-box.transparent > .widget-header {
   border-bottom: 1px solid white;
   color: white;
 }
 
 /* 버튼 색 변경 */
-.skin-2 .navbar .navbar-toggle { 
+.skin-2 .navbar .navbar-toggle {
   background-color: #393939;
 }
 
-.skin-2 .nav-list>li.hover-show>a { 
+.skin-2 .nav-list > li.hover-show > a {
   background-color: #393939 !important;
 }
 
-.sidebar.menu-min .nav-list>li>.submenu {
+.sidebar.menu-min .nav-list > li > .submenu {
   left: 59px;
 }
 
@@ -151,7 +155,7 @@ small > a {
   color: white !important;
 }
 
-.fc .fc-toolbar>*>:first-child {
+.fc .fc-toolbar > * > :first-child {
   color: white;
 }
 
@@ -165,11 +169,12 @@ small > a {
   display: none;
 }
 
-.fc-state-default, .fc-state-default .fc-button-inner {
+.fc-state-default,
+.fc-state-default .fc-button-inner {
   /* 학습계획 /일정에서의 버튼 색 변경 */
   background-color: #323232;
   /* 글자 색 변경 */
-  color : white;
+  color: white;
 }
 
 .fc-unthemed .fc-today {
@@ -177,12 +182,19 @@ small > a {
   background: #5f5f5f;
 }
 
-.fc-unthemed .fc-popover, .fc-unthemed .fc-row, .fc-unthemed hr, .fc-unthemed tbody, .fc-unthemed td, .fc-unthemed th, .fc-unthemed thead {
+.fc-unthemed .fc-popover,
+.fc-unthemed .fc-row,
+.fc-unthemed hr,
+.fc-unthemed tbody,
+.fc-unthemed td,
+.fc-unthemed th,
+.fc-unthemed thead {
   /* 테두리 색 변경 */
   border-color: #393939;
 }
 
-.fc .fc-axis, .fc-widget-header {
+.fc .fc-axis,
+.fc-widget-header {
   /* 헤더부분 배경 색 변경 */
   background: #5f5f5f;
   /* 헤더부분 글씨 색 변경 */
@@ -198,7 +210,7 @@ small > a {
 }
 
 /* 항목의 글자 색 변경 */
-.table>thead>tr {
+.table > thead > tr {
   color: white;
 }
 
@@ -238,7 +250,7 @@ small > a {
   display: none;
 }
 
-.widget-header>.widget-title>.ace-icon {
+.widget-header > .widget-title > .ace-icon {
   display: none;
 }
 
@@ -247,10 +259,110 @@ svg {
   filter: invert(77.5%) hue-rotate(30deg) saturate(200%);
 }
 
-.grid2 {
+/* 메인화면 위젯 글자 스타일 */
+.widget-title {
+  color: white;
+  font-weight: 900;
+  opacity: 0.9;
+}
+
+/* 일일단어 위젯 안쓰는 아이콘 제거 */
+#mainVoca
+  > div
+  > div
+  > div.widget-header.widget-header-small.header-color-blue2
+  > div {
+  display: none;
+}
+
+/* 날씨위젯에 현재시간 표시 제거 */
+#mainWeather
+  > div
+  > div
+  > div.widget-header.widget-header-small.header-color-blue2
+  > h4
+  > small {
+  display: none;
+}
+
+/*  위젯 상단 줄 제거 */
+.widget-box.transparent > .widget-header {
   border: none;
 }
 
 .fc-bg>table>tbody>tr {
   background: linear-gradient(0, #393939, #4b4b4b);
+}
+
+/* 위젯-내용 공백 제거 */
+.widget-body > div {
+  padding: 0px;
+}
+
+/* 일일단어 안쓰는 아이콘 제거 */
+#vocaRight i.blue {
+  display: none;
+}
+
+/* 위젯 float와 height 사이 이슈 해결하기 위해 가상선택자로 float clear 해주기 */
+div.widget-body > div::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* 캘린더 상단 버튼 스타일 */
+.fc-state-default,
+.fc-state-default .fc-button-inner {
+  background-color: #2c2c2c;
+  font-size: 14px !important;
+  border-radius: 6px !important;
+}
+
+/* 위젯 메인 스타일 */
+.widget-body {
+  margin-top: 6px;
+  border: 2px solid #313131 !important;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+/* 데이터리스트위젯 새로고침 버튼 삭제 */
+[data-action="reload"] {
+  display: none !important;
+}
+
+/* 공지사항에 의미없는공백 제거 */
+#mainNotice > div > div > div.widget-body > div > div > div {
+  padding: 0px;
+}
+
+/* 위젯 제목 위에 공백 수정 */
+[style="margin:10px;"] {
+  margin: 0px !important;
+  margin-top: 12px !important;
+}
+
+/* 학습계획 날짜 왼쩍정렬 */
+#calendar > div.fc-toolbar > div.fc-center {
+  float: left;
+  margin-left: 12px;
+}
+
+/* 학습계획 날짜 스타일 */
+#calendar > div.fc-toolbar > div.fc-center h2 {
+  font-size: 16px;
+  color: white;
+  line-height: 32px;
+  font-weight: 900;
+  opacity: 0.7;
+}
+
+.skin-2 .nav-list > li:nth-child(2) > a:hover {
+  background-color: #103341;
+  color: white;
+}
+.skin-2 .nav-list > li:nth-child(3) > a:hover {
+  background-color: #142e1d;
+  color: white;
 }
