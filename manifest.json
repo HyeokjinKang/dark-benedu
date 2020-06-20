@@ -1,0 +1,21 @@
+{
+  "author": "Coupy",
+  "content_scripts": [ {
+    "matches": ["*://*.benedu.co.kr/*"],
+     "all_frames": true,
+     "js": ["js/content.js"]
+  } ],
+  "description": "Benedu의 디자인을 더 예쁘게 만들어줍니다.",
+  "icons": {
+     "16": "icon16.png",
+     "32": "icon32.png",
+     "48": "icon48.png",
+     "64": "icon64.png",
+     "128": "icon128.png"
+  },
+  "manifest_version": 2,
+  "name": "Better Benedu",
+  "permissions": ["*://*.benedu.co.kr/*", "tabs", "activeTab"],
+  "version": "1.0",
+  "web_accessible_resources": [ "svg/*.svg", "css/*.css" ]
+}

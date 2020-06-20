@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+body {
+  font-family: 'Noto Sans KR', '나눔스퀘어', '나눔바른고딕', Arial;
+}
+
+.skin-2 .navbar {
+  background: #393939;
+}
+img.pull-left {
+  display: none;
+}
