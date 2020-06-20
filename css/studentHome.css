@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
 
 body {
-  font-family: 'Noto Sans KR', '나눔스퀘어', '나눔바른고딕', Arial;
+  font-family: "Noto Sans KR", "나눔스퀘어", "나눔바른고딕", Arial;
 }
 
 .skin-2 .navbar {
@@ -13,7 +13,7 @@ body {
 }
 
 img.pull-left {
-  content: url('https://raw.githubusercontent.com/HyeokjinKang/better-benedu/master/icon64.png');
+  content: url("https://raw.githubusercontent.com/HyeokjinKang/better-benedu/master/icon64.png");
   margin-top: 6px;
   height: 24px;
 }
@@ -46,7 +46,7 @@ img.pull-left {
   display: none !important;
 }
 
-.skin-2 .sidebar.menu-min .nav-list>li>a>.menu-text {
+.skin-2 .sidebar.menu-min .nav-list > li > a > .menu-text {
   margin-left: 18px;
 }
 
@@ -62,7 +62,7 @@ img.pull-left {
   color: white !important;
 }
 
-.glyphicon{
+.glyphicon {
   color: white !important;
 }
 
@@ -70,7 +70,7 @@ small > a {
   color: white !important;
 }
 
-.ace-nav>li.light-blue>a {
+.ace-nav > li.light-blue > a {
   background-color: #393939 !important;
 }
 
@@ -78,15 +78,116 @@ small > a {
   font-size: 1.2em;
 }
 
-.carousel-caption>p:nth-child(1) {
+.carousel-caption > p:nth-child(1) {
   display: none;
 }
 
-.carousel-caption>p:nth-child(3) {
+.carousel-caption > p:nth-child(3) {
   font-size: 1em;
 }
 
 /* 사이드바 보더 없애기 */
-#sidebar > div.nav-wrap-up.pos-rel > div.nav-wrap > div > ul > li { 
+#sidebar > div.nav-wrap-up.pos-rel > div.nav-wrap > div > ul > li {
   border: none;
+}
+
+/* 메인화면 위젯 글자 스타일 */
+.widget-title {
+  color: black;
+  font-weight: 900;
+  opacity: 0.7;
+}
+
+/* 일일단어 위젯 안쓰는 아이콘 제거 */
+#mainVoca
+  > div
+  > div
+  > div.widget-header.widget-header-small.header-color-blue2
+  > div {
+  display: none;
+}
+
+/* 날씨위젯에 현재시간 표시 제거 */
+#mainWeather
+  > div
+  > div
+  > div.widget-header.widget-header-small.header-color-blue2
+  > h4
+  > small {
+  display: none;
+}
+
+/*  ? */
+.widget-box.transparent > .widget-header {
+  border: none;
+}
+.widget-body > div {
+  padding: 0px;
+}
+#vocaRight i.blue {
+  display: none;
+}
+div.widget-body > div::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.fc-state-default,
+.fc-state-default .fc-button-inner {
+  background-color: #2c2c2c;
+  font-size: 14px !important;
+  border-radius: 6px !important;
+}
+
+.widget-body {
+  margin-top: 6px;
+  border: 1px solid #d6d6d6;
+  border-width: 1px !important;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+[data-action="reload"] {
+  display: none !important;
+}
+#mainNotice > div > div > div.widget-body > div > div > div {
+  padding: 0px;
+}
+
+#main-container
+  > div.main-content
+  > div
+  > div
+  > div
+  > div
+  > div:nth-child(6)
+  > div.col-md-3.col-sm-6.col-xs-12 {
+  display: none;
+}
+
+[style="margin:10px;"] {
+  margin: 0px !important;
+  margin-top: 12px !important;
+}
+
+[data-toggle="tab"] {
+  border-color: #d6d6d6 !important;
+  border-width: 1px !important;
+}
+
+#calendar > div.fc-toolbar > div.fc-center {
+  float: left;
+  margin-left: 12px;
+}
+#calendar > div.fc-toolbar > div.fc-center h2 {
+  font-size: 16px;
+  color: black;
+  line-height: 32px;
+  font-weight: 900;
+  opacity: 0.7;
+}
+.skin-2 .nav-list > li:nth-child(2) > a:hover {
+  background-color: #133a2e;
+  color: white;
 }
