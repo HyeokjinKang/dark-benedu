@@ -25,6 +25,10 @@ img.pull-left {
   width: 60px !important;
 }
 
+.sidebar-shortcuts {
+  display: none;
+}
+
 .sidebar-shortcuts-mini {
   margin-left: 9px;
 }
