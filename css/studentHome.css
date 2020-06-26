@@ -1,5 +1,7 @@
 .slide-0 {
-  background: linear-gradient(0, #1f1f1f, #393939) !important;
+  background-image: url("https://raw.githubusercontent.com/HyeokjinKang/better-benedu/master/contents/header.png") !important;
+  background-position: center;
+  background-size: cover;
 }
 
 .carousel-control {
