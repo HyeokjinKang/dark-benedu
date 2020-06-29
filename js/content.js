@@ -16,6 +16,7 @@ const injectJs = path => {
 
 if(url.includes("benedu.co.kr")) {
   injectCss("css/global.css");
+  injectJs("js/global.js");
   if(url.includes("/StudentHome")) {
     injectCss("css/studentHome.css");
     injectJs("js/studentHome.js");

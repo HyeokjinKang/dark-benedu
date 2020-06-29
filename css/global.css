@@ -13,10 +13,12 @@ body {
 }
 
 img.pull-left {
+  cursor: pointer;
   content: url("https://raw.githubusercontent.com/HyeokjinKang/better-benedu/master/contents/icon64.png");
   margin-top: 6px;
   height: 24px;
 }
+
 .menu-min {
   width: 60px !important;
 }
