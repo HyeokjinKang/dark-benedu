@@ -162,7 +162,12 @@ svg {
 }
 
 /* 날씨위젯에 현재시간 표시 제거 */
-#mainWeather > div > div > div.widget-header.widget-header-small.header-color-blue2 > h4 > small {
+#mainWeather
+  > div
+  > div
+  > div.widget-header.widget-header-small.header-color-blue2
+  > h4
+  > small {
   display: none;
 }
 
@@ -238,13 +243,28 @@ div.widget-body > div::after {
   font-weight: 900;
   opacity: 0.7;
 }
-
+/* 사이드바 호버 색 조정 */
+.skin-2 .nav-list > li a {
+  transition: 1s cubic-bezier(0, 0.71, 0.08, 0.99);
+}
 .skin-2 .nav-list > li:nth-child(2) > a:hover {
   background-color: #103341;
   color: white;
 }
 .skin-2 .nav-list > li:nth-child(3) > a:hover {
   background-color: #142e1d;
+  color: white;
+}
+.skin-2 .nav-list > li:nth-child(4) > a:hover {
+  background-color: #302a0a;
+  color: white;
+}
+.skin-2 .nav-list > li:nth-child(5) > a:hover {
+  background-color: #3a110a;
+  color: white;
+}
+.skin-2 .nav-list > li:nth-child(6) > a:hover {
+  background-color: #302208;
   color: white;
 }
 
