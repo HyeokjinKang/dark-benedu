@@ -252,3 +252,59 @@ div.widget-body > div::after {
 .table-striped>tbody>tr:nth-of-type(odd) {
   background-color: #393939;
 }
+
+#context-menu-date {
+  color: black !important;
+}
+
+.skin-2
+.nav-list>li:nth-child(2)>.submenu li.active>a,
+.skin-2 .nav-list>li:nth-child(2)>.submenu li.hover-show>a,
+.skin-2 .nav-list>li:nth-child(2)>.submenu li.open>a,
+.skin-2 .nav-list>li:nth-child(2)>.submenu li:hover>a {
+  color: white !important;
+}
+
+.skin-2 .nav-list>li>.submenu {
+  background-color: #2c2c2c !important;
+}
+
+tr:hover {
+  background-color: #2c2c2c !important;
+}
+
+#LearningPlan-Dialog {
+  background-color: #333;
+}
+
+.form-control, input[readonly], .ui-dialog .ui-dialog-titlebar {
+  color: white !important;
+  background-color: #333 !important;
+}
+
+.ui-dialog, .ui-jqdialog {
+  border: 1px solid #777 !important;
+}
+
+.fa-leaf, .ui-dialog-titlebar-close {
+  display: none;
+}
+
+.btn-info, .input-group-addon {
+  background-color: #333 !important;
+  color: #fff !important;
+  border: none;
+  text-shadow: none !important;
+}
+
+.widget-header {
+  display: none;
+}
+
+#LearningPlan-Dialog-data>.row:nth-child(12) {
+  display: none;
+}
+
+.jconfirm-bg {
+  background-color: rgba(68, 68, 68, 0.75) !important;
+}

@@ -106,3 +106,7 @@ small > a {
 .footer {
   display: none;
 }
+
+.skin-2 .nav-list>li>a>.arrow, .skin-2 .nav-list>li>a>.menu-text {
+  color: white !important;
+}
