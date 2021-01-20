@@ -23,13 +23,13 @@
 
 /* 폰트 색 변경 */
 .widget-box.transparent > .widget-header {
-  border-bottom: 1px solid white;
-  color: white;
+  border-bottom: 1px solid #eee;
+  color: #eee;
 }
 
 /* 폰트 색 변경 */
 .row {
-  color: white;
+  color: #eee;
 }
 
 /* 색칠되지 않은 별 색 변경 */
@@ -44,24 +44,24 @@
 
 /* 아이콘들 하얀색으로 변경 */
 .orange {
-  color: white !important;
+  color: #eee !important;
 }
 
 .red {
-  color: white !important;
+  color: #eee !important;
 }
 
 .blue {
-  color: white !important;
+  color: #eee !important;
 }
 
 .fc .fc-toolbar > * > :first-child {
-  color: white;
+  color: #eee;
 }
 
 /* 학습 계획 일정 글씨 색 변경 */
 .fc-toolbar button {
-  color: white;
+  color: #eee;
 }
 
 .fc-state-default,
@@ -69,7 +69,7 @@
   /* 학습계획 /일정에서의 버튼 색 변경 */
   background-color: #323232;
   /* 글자 색 변경 */
-  color: white;
+  color: #eee;
 }
 
 .fc-unthemed .fc-today {
@@ -93,7 +93,7 @@
   /* 헤더부분 배경 색 변경 */
   background: #5f5f5f;
   /* 헤더부분 글씨 색 변경 */
-  color: white;
+  color: #eee;
 }
 
 /* 여기까지 입니다 */
@@ -106,11 +106,11 @@
 
 /* 항목의 글자 색 변경 */
 .table > thead > tr {
-  color: white;
+  color: #eee;
 }
 
 .menu-text {
-  color: white !important;
+  color: #eee !important;
 }
 
 /* better benedu 삭제 */
@@ -124,7 +124,7 @@
 }
 
 .text-success {
-  color: white;
+  color: #eee;
 }
 
 /* 공지, 날씨 삭제*/
@@ -156,7 +156,7 @@ svg {
 
 /* 메인화면 위젯 글자 스타일 */
 .widget-title {
-  color: white;
+  color: #eee;
   font-weight: 900;
   opacity: 0.9;
 }
@@ -238,7 +238,7 @@ div.widget-body > div::after {
 /* 학습계획 날짜 스타일 */
 #calendar > div.fc-toolbar > div.fc-center h2 {
   font-size: 16px;
-  color: white;
+  color: #eee;
   line-height: 32px;
   font-weight: 900;
   opacity: 0.7;
@@ -249,23 +249,23 @@ div.widget-body > div::after {
 }
 .skin-2 .nav-list > li:nth-child(2) > a:hover {
   background-color: #103341;
-  color: white;
+  color: #eee;
 }
 .skin-2 .nav-list > li:nth-child(3) > a:hover {
   background-color: #142e1d;
-  color: white;
+  color: #eee;
 }
 .skin-2 .nav-list > li:nth-child(4) > a:hover {
   background-color: #302a0a;
-  color: white;
+  color: #eee;
 }
 .skin-2 .nav-list > li:nth-child(5) > a:hover {
   background-color: #3a110a;
-  color: white;
+  color: #eee;
 }
 .skin-2 .nav-list > li:nth-child(6) > a:hover {
   background-color: #302208;
-  color: white;
+  color: #eee;
 }
 
 /* 과제 표 배경색 수정 */
@@ -282,7 +282,7 @@ div.widget-body > div::after {
 .skin-2 .nav-list>li:nth-child(2)>.submenu li.hover-show>a,
 .skin-2 .nav-list>li:nth-child(2)>.submenu li.open>a,
 .skin-2 .nav-list>li:nth-child(2)>.submenu li:hover>a {
-  color: white !important;
+  color: #eee !important;
 }
 
 .skin-2 .nav-list>li>.submenu {
@@ -298,7 +298,7 @@ tr:hover {
 }
 
 .form-control, input[readonly], .ui-dialog .ui-dialog-titlebar {
-  color: white !important;
+  color: #eee !important;
   background-color: #333 !important;
 }
 
@@ -312,7 +312,7 @@ tr:hover {
 
 .btn-info, .input-group-addon {
   background-color: #333 !important;
-  color: #fff !important;
+  color: #eee !important;
   border: none;
   text-shadow: none !important;
 }
@@ -327,4 +327,17 @@ tr:hover {
 
 .jconfirm-bg {
   background-color: rgba(68, 68, 68, 0.75) !important;
+}
+
+/* WHAT THE F */
+#thumbnail-preview-indicators, #thumbnail-preview-indicators .slides, #thumbnail-preview-indicators .slides .slide-0, #thumbnail-preview-indicators .slides .slide-1, #thumbnail-preview-indicators .slides .slide-2, #thumbnail-preview-indicators .slides .slide-3, #thumbnail-preview-indicators .slides .slide-4, #thumbnail-preview-indicators .slides .slide-5, #thumbnail-preview-indicators .slides .slide-6, #thumbnail-preview-indicators .slides .slide-7, #thumbnail-preview-indicators .slides .slide-8, #thumbnail-preview-indicators .slides .slide-9 {
+  height: 25vh !important;
+}
+
+#thumbnail-preview-indicators .carousel-inner .item .carousel-caption {
+  top: 3vh !important;
+}
+
+#main-container > div.main-content > div > div > div > div > div:nth-child(6) > div:nth-child(3) {
+  margin-bottom: 3vh;
 }

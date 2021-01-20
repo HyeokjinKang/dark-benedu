@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
 
 body {
+  color: #eee;
+  overflow: auto !important;
   font-family: "Noto Sans KR", "나눔스퀘어", "나눔바른고딕", Arial;
 }
 
@@ -56,15 +58,15 @@ img.pull-left {
 }
 
 .fa-clock-o {
-  color: white !important;
+  color: #eee !important;
 }
 
 .glyphicon {
-  color: white !important;
+  color: #eee !important;
 }
 
 small > a {
-  color: white !important;
+  color: #eee !important;
 }
 
 .ace-nav > li.light-blue > a {
@@ -78,6 +80,11 @@ small > a {
 /* 배경 색 변경 */
 .page-content {
   height: 100%;
+  background-color: #393939;
+}
+
+.skin-2 {
+  overflow-x: none;
   background-color: #393939;
 }
 
@@ -108,5 +115,66 @@ small > a {
 }
 
 .skin-2 .nav-list>li>a>.arrow, .skin-2 .nav-list>li>a>.menu-text {
-  color: white !important;
+  color: #eee !important;
+}
+
+.ui-dialog, .ui-jqdialog {
+  background-color: #333 !important;
+}
+
+.dataTable>thead>tr>th[class*=sorting_] {
+  color: #eee;
+}
+
+.table>thead>tr {
+  background: repeat-x #333;
+}
+
+.dataTables_wrapper .row:last-child {
+  border: none !important;
+  background-color: #00000000 !important;
+}
+
+.table-hover>tbody>tr:hover, .table>tbody>tr.active>td, .table>tbody>tr.active>th, .table>tbody>tr>td.active, .table>tbody>tr>th.active, .table>tfoot>tr.active>td, .table>tfoot>tr.active>th, .table>tfoot>tr>td.active, .table>tfoot>tr>th.active, .table>thead>tr.active>td, .table>thead>tr.active>th, .table>thead>tr>td.active, .table>thead>tr>th.active {
+  background: #222 !important;
+}
+
+.text-warning {
+  color: #eee;
+  font-weight: bold;
+}
+
+input[type=checkbox].ace+.lbl::before, input[type=radio].ace+.lbl::before {
+  background-color: #0000;
+}
+
+.pager>li>a, .pagination>li>a {
+  background-color: #0000;
+  color: #eee;
+}
+
+.pager>li.disabled>a, .pager>li.disabled>a:hover, .pagination>li.disabled>a, .pagination>li.disabled>a:hover {
+  background-color: #0000;
+}
+
+.skin-2 .breadcrumbs {
+  background-color: #222;
+}
+
+.breadcrumb>li, .breadcrumb>li.active {
+  color: #eee;
+}
+
+.breadcrumb>li>a {
+  color: #eee;
+  text-decoration: none;
+}
+
+.page-header h1 {
+  font-weight: 700;
+  color: #eee !important;
+}
+
+.blue {
+  color: #eee !important;
 }

@@ -5,7 +5,7 @@
      "all_frames": true,
      "js": ["js/content.js"]
   } ],
-  "description": "Benedu의 디자인을 더 예쁘게 만들어줍니다.",
+  "description": "Benedu를 어둡게 만들어줍니다.",
   "icons": {
      "16": "contents/icon16.png",
      "32": "contents/icon32.png",
@@ -14,7 +14,7 @@
      "128": "contents/icon128.png"
   },
   "manifest_version": 2,
-  "name": "Better Benedu",
+  "name": "Dark Benedu",
   "permissions": ["*://*.benedu.co.kr/*", "tabs", "activeTab"],
   "version": "1.0",
   "web_accessible_resources": [ "css/*.css", "js/*.js" ]
